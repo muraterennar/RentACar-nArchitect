@@ -1,0 +1,15 @@
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/bin/Debug/net7.0/Domain.deps.json
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/bin/Debug/net7.0/Domain.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/bin/Debug/net7.0/Domain.pdb
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/bin/Debug/net7.0/Core.Persistence.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/bin/Debug/net7.0/Core.Persistence.pdb
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/obj/Debug/net7.0/Domain.csproj.CopyComplete
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/obj/Debug/net7.0/Domain.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/obj/Debug/net7.0/refint/Domain.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/obj/Debug/net7.0/Domain.pdb
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/obj/Debug/net7.0/ref/Domain.dll

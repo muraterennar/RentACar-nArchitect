@@ -1,0 +1,12 @@
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Persistence.deps.json
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Persistence.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Persistence.pdb
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/Persistence.csproj.AssemblyReference.cache
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/Persistence.AssemblyInfoInputs.cache
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/Persistence.AssemblyInfo.cs
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/Persistence.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/refint/Persistence.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/Persistence.pdb
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/ref/Persistence.dll

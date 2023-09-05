@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Application/Application.csproj": {}
+  },
+  "projects": {
+    "/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Application/Application.csproj",
+        "packagesPath": "/Users/muraterennar/.nuget/packages/",
+        "outputPath": "/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/muraterennar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/Domain.csproj": {
+                "projectPath": "/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/Domain.csproj",
+        "packagesPath": "/Users/muraterennar/.nuget/packages/",
+        "outputPath": "/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/muraterennar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

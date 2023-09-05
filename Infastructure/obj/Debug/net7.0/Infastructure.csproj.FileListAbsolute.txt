@@ -1,0 +1,12 @@
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Infastructure/bin/Debug/net7.0/Infastructure.deps.json
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Infastructure/bin/Debug/net7.0/Infastructure.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Infastructure/bin/Debug/net7.0/Infastructure.pdb
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Infastructure/obj/Debug/net7.0/Infastructure.csproj.AssemblyReference.cache
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Infastructure/obj/Debug/net7.0/Infastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Infastructure/obj/Debug/net7.0/Infastructure.AssemblyInfoInputs.cache
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Infastructure/obj/Debug/net7.0/Infastructure.AssemblyInfo.cs
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Infastructure/obj/Debug/net7.0/Infastructure.csproj.CoreCompileInputs.cache
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Infastructure/obj/Debug/net7.0/Infastructure.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Infastructure/obj/Debug/net7.0/refint/Infastructure.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Infastructure/obj/Debug/net7.0/Infastructure.pdb
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Infastructure/obj/Debug/net7.0/ref/Infastructure.dll
