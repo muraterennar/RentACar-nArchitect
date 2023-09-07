@@ -10,3 +10,10 @@
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/refint/Persistence.dll
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/Persistence.pdb
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/ref/Persistence.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Application.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Core.Persistence.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Domain.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Domain.pdb
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Application.pdb
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Core.Persistence.pdb
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/Persistence.csproj.CopyComplete

@@ -19,6 +19,7 @@
     <None Remove="Features\Brands\Commands\Delete\" />
     <None Remove="Services\" />
     <None Remove="Services\Repositories\" />
+    <None Remove="Features\Brands\Queries\GetList\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Features\" />
@@ -33,9 +34,12 @@
     <Folder Include="Features\Brands\Commands\Delete\" />
     <Folder Include="Services\" />
     <Folder Include="Services\Repositories\" />
+    <Folder Include="Features\Brands\Queries\GetList\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Core.Persistence">
