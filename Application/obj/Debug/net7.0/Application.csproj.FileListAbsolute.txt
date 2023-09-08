@@ -15,3 +15,5 @@
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Application/bin/Debug/net7.0/Domain.pdb
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Application/bin/Debug/net7.0/Core.Persistence.pdb
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Application/obj/Debug/net7.0/Application.csproj.CopyComplete
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Application/bin/Debug/net7.0/Core.Application.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Application/bin/Debug/net7.0/Core.Application.pdb

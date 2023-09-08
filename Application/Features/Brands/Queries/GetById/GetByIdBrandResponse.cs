@@ -1,6 +1,6 @@
-﻿namespace Application.Features.Brands.Queries.GetList;
+﻿namespace Application.Features.Brands.Queries.GetById;
 
-public class GetListBrandListItemDto
+public class GetByIdBrandResponse
 {
     public Guid Id { get; set; }
     public string Name { get; set; }

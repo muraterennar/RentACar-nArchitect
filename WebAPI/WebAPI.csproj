@@ -27,4 +27,9 @@
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Core.Application">
+      <HintPath>..\..\..\corePages\Core.Packges\Core.Application\bin\Debug\net7.0\Core.Application.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
