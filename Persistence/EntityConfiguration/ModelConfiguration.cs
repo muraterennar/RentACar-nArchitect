@@ -13,7 +13,7 @@ public class ModelConfiguration : IEntityTypeConfiguration<Model>
         builder.Property(m => m.Id).HasColumnName("Id").IsRequired();
         builder.Property(m => m.BrandId).HasColumnName("BrandId").IsRequired();
         builder.Property(m => m.FuelId).HasColumnName("FuelId").IsRequired();
-        builder.Property(m => m.TranmissionId).HasColumnName("TranmissionId").IsRequired();
+        builder.Property(m => m.TransmissionId).HasColumnName("TranmissionId").IsRequired();
 
 
         builder.Property(m => m.Name).HasColumnName("Name").IsRequired();

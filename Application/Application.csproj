@@ -21,6 +21,14 @@
     <None Remove="Services\Repositories\" />
     <None Remove="Features\Brands\Queries\GetList\" />
     <None Remove="Features\Brands\Queries\GetById\" />
+    <None Remove="Features\Models\" />
+    <None Remove="Features\Models\Commands\" />
+    <None Remove="Features\Models\Queries\" />
+    <None Remove="Features\Models\Profiles\" />
+    <None Remove="Features\Models\Rules\" />
+    <None Remove="Features\Models\Constants\" />
+    <None Remove="Features\Models\Queries\GetList\" />
+    <None Remove="Features\Models\Queries\GetListByDynamic\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Features\" />
@@ -37,6 +45,14 @@
     <Folder Include="Services\Repositories\" />
     <Folder Include="Features\Brands\Queries\GetList\" />
     <Folder Include="Features\Brands\Queries\GetById\" />
+    <Folder Include="Features\Models\" />
+    <Folder Include="Features\Models\Commands\" />
+    <Folder Include="Features\Models\Queries\" />
+    <Folder Include="Features\Models\Profiles\" />
+    <Folder Include="Features\Models\Rules\" />
+    <Folder Include="Features\Models\Constants\" />
+    <Folder Include="Features\Models\Queries\GetList\" />
+    <Folder Include="Features\Models\Queries\GetListByDynamic\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.1.1" />
