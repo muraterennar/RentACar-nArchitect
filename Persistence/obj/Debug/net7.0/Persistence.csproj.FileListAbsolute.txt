@@ -6,10 +6,12 @@
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Core.Persistence.dll
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Domain.dll
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Core.Application.dll
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Core.CrossCuttingConcerns.dll
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Domain.pdb
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Application.pdb
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Core.Persistence.pdb
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Core.Application.pdb
+/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/bin/Debug/net7.0/Core.CrossCuttingConcerns.pdb
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/Persistence.csproj.AssemblyReference.cache
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
 /Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/obj/Debug/net7.0/Persistence.AssemblyInfoInputs.cache

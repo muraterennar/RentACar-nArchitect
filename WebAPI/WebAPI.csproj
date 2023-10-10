@@ -39,5 +39,8 @@
     <Reference Include="Core.Persistence">
       <HintPath>..\..\..\corePages\Core.Packges\Core.Persistence\bin\Debug\net7.0\Core.Persistence.dll</HintPath>
     </Reference>
+    <Reference Include="Core.CrossCuttingConcerns">
+      <HintPath>..\..\..\corePages\Core.Packges\Core.CrossCuttingConcerns\bin\Debug\net7.0\Core.CrossCuttingConcerns.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

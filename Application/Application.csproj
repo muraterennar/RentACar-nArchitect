@@ -68,6 +68,9 @@
       <HintPath>..\..\..\corePages\Core.Packges\Core.Application\bin\Debug\net7.0\Core.Application.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.EntityFrameworkCore, Version=7.0.10.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" />
+    <Reference Include="Core.CrossCuttingConcerns">
+      <HintPath>..\..\..\corePages\Core.Packges\Core.CrossCuttingConcerns\bin\Debug\net7.0\Core.CrossCuttingConcerns.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
