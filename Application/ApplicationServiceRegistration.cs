@@ -1,6 +1,9 @@
 ﻿using System.Reflection;
 using Core.Application.Rules;
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
+using Core.CrossCuttingConcerns.Exceptions.Types;
+using Core.Application.Pipelines.Validation;
 
 namespace Application;
 
@@ -15,9 +18,13 @@ public static class ApplicationServiceRegistration
         // Tipini verdiğimiz Türün Assembly Eklemimizi Sağlıyor.
         services.AddSubClassedOfType(Assembly.GetExecutingAssembly(), typeof(BaseBusinessRules));
 
+        // Fluient Validation ICo Ekleniyor Assmpley aranarak
+        services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+
         services.AddMediatR(configuration =>
         {
             configuration.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+            configuration.AddOpenBehavior(typeof(RequestValidationBehavior<,>));
         });
 
 

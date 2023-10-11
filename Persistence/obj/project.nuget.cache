@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "n4vk1bi1xk3m3Icm+r6sc6qv3qI0UD/dCESy8gNacoUiogczO1vkLcpv1OsphaEUPD3O6fAxQ7koWDTTmR/IXA==",
+  "dgSpecHash": "4cikH3hkHauI9WLRC9wsUbcJy8uHS9UVIqaviLSrDR4JFiJrPywbEkqf+7ovure8myk37M2ZxBi5wLYlVQ7Oxw==",
   "success": true,
   "projectFilePath": "/Users/muraterennar/Projects/rentACarDemo/projects/RentACar/Persistence/Persistence.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "/Users/muraterennar/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/muraterennar/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/muraterennar/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/Users/muraterennar/.nuget/packages/fluentvalidation/11.7.1/fluentvalidation.11.7.1.nupkg.sha512",
+    "/Users/muraterennar/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.7.1/fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "/Users/muraterennar/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/muraterennar/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
     "/Users/muraterennar/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
