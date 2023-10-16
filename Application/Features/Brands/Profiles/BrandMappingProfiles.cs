@@ -14,6 +14,8 @@ public class BrandMappingProfiles : Profile
 {
     public BrandMappingProfiles()
     {
+
+        // Verilerin karşılıklı maplediğimiz yer
         CreateMap<Brand, CreateBrandCommand>().ReverseMap();
         CreateMap<Brand, CreatedBrandResponse>().ReverseMap();
 

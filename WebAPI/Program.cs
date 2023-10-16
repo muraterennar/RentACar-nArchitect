@@ -11,6 +11,12 @@ builder.Services.AddControllers();
 builder.Services.AddApplicationServices();
 builder.Services.AddPersistenceServices(builder.Configuration);
 
+// --- InMemory Cache
+// builder.Services.AddDistributedMemoryCache();
+
+// --- Redis Cache
+builder.Services.AddStackExchangeRedisCache(options => options.Configuration = "localhost:6379");
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -23,8 +29,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-//if (app.Environment.IsProduction())
-app.ConfigureCustomExceptionMiddleware();
+if (app.Environment.IsProduction())
+    app.ConfigureCustomExceptionMiddleware();
 
 
 app.UseHttpsRedirection();

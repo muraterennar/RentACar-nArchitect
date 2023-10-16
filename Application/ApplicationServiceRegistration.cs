@@ -1,10 +1,10 @@
 ﻿using System.Reflection;
+using Core.Application.Pipelines.Caching;
+using Core.Application.Pipelines.Transaction;
+using Core.Application.Pipelines.Validation;
 using Core.Application.Rules;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
-using Core.CrossCuttingConcerns.Exceptions.Types;
-using Core.Application.Pipelines.Validation;
-using Core.Application.Pipelines.Transaction;
 
 namespace Application;
 
@@ -27,6 +27,8 @@ public static class ApplicationServiceRegistration
             configuration.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
             configuration.AddOpenBehavior(typeof(RequestValidationBehavior<,>));
             configuration.AddOpenBehavior(typeof(TransactionScopeBehavior<,>));
+            configuration.AddOpenBehavior(typeof(CachingBehavior<,>));
+            configuration.AddOpenBehavior(typeof(CacheRemovingBehavior<,>));
         });
 
 

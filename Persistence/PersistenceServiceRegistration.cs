@@ -13,8 +13,10 @@ public static class PersistenceServiceRegistration
     {
         //services.AddDbContext<BaseDbContext>(options => options.UseInMemoryDatabase("rentACarDb"));
 
+        // Vari Tabanı Bağlantısını Tanımlıyoruz
         services.AddDbContext<BaseDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("RentACarDb")));
 
+        // Repository Sınıflarını IoC'ye injekte ediyorux
         services.AddScoped<IBrandRepository, BrandRepository>();
         services.AddScoped<ICarRepository, CarRepository>();
         services.AddScoped<IModelRepository, ModelRepository>();

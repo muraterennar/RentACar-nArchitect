@@ -17,12 +17,17 @@ public class BrandBusinessRules : BaseBusinessRules
 
     public async Task BrandNameCannotBeDuplicatedWhenInserted(string name)
     {
+        // Verilen 'name' değerine sahip bir marka alınmaya çalışıyor.
+
         Brand? result = await _brandRepository.GetAsync(b => b.Name.ToLower() == name);
+
+        // Eğer böyle bir marka bulunursa (result null değilse), hata fırlatılır.
 
         if (result != null)
         {
             throw new BusinessException(BrandsMessages.BrandNameExists);
         }
     }
+
 }
 
