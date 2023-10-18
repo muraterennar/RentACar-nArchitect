@@ -10,6 +10,7 @@ builder.Services.AddControllers();
 // ---------- Custom Application Services ----------
 builder.Services.AddApplicationServices();
 builder.Services.AddPersistenceServices(builder.Configuration);
+builder.Services.AddHttpContextAccessor();
 
 // --- InMemory Cache
 // builder.Services.AddDistributedMemoryCache();
@@ -29,8 +30,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-if (app.Environment.IsProduction())
-    app.ConfigureCustomExceptionMiddleware();
+//if (app.Environment.IsProduction())
+app.ConfigureCustomExceptionMiddleware();
 
 
 app.UseHttpsRedirection();

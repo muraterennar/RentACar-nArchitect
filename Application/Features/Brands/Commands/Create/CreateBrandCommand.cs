@@ -2,13 +2,14 @@
 using Application.Services.Repositories;
 using AutoMapper;
 using Core.Application.Pipelines.Caching;
+using Core.Application.Pipelines.Logging;
 using Core.Application.Pipelines.Transaction;
 using Domain.Entities;
 using MediatR;
 
 namespace Application.Features.Brands.Commands.Create;
 
-public class CreateBrandCommand : IRequest<CreatedBrandResponse>, ICacheRemoverRequest
+public class CreateBrandCommand : IRequest<CreatedBrandResponse>, ITransactionRequest, ICacheRemoverRequest, ILoggableRequest
 {
     // "Name" adında bir public property oluşturuluyor.
     public string Name { get; set; }
@@ -56,6 +57,3 @@ public class CreateBrandCommand : IRequest<CreatedBrandResponse>, ICacheRemoverR
         }
     }
 }
-
-}
-

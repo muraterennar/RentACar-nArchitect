@@ -1,8 +1,11 @@
 ﻿using System.Reflection;
 using Core.Application.Pipelines.Caching;
+using Core.Application.Pipelines.Logging;
 using Core.Application.Pipelines.Transaction;
 using Core.Application.Pipelines.Validation;
 using Core.Application.Rules;
+using Core.CrossCuttingConcerns.Serilog;
+using Core.CrossCuttingConcerns.Serilog.Logger;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -22,14 +25,32 @@ public static class ApplicationServiceRegistration
         // Fluient Validation ICo Ekleniyor Assmpley aranarak
         services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 
+        // MediatR servisini projenin yürütülen derlemesine kaynak olarak ekler.
         services.AddMediatR(configuration =>
         {
+            // Uygulamanın yürütülen derlemesinden hizmetleri kaydeder.
             configuration.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+
+            // İstek doğrulama davranışını MediatR servisine ekler.
             configuration.AddOpenBehavior(typeof(RequestValidationBehavior<,>));
+
+            // İşlem kapsamı davranışını MediatR servisine ekler.
             configuration.AddOpenBehavior(typeof(TransactionScopeBehavior<,>));
+
+            // Önbellek davranışını MediatR servisine ekler.
             configuration.AddOpenBehavior(typeof(CachingBehavior<,>));
+
+            // Önbellek kaldırma davranışını MediatR servisine ekler.
             configuration.AddOpenBehavior(typeof(CacheRemovingBehavior<,>));
+
+            // Günlükleme davranışını MediatR servisine ekler.
+            configuration.AddOpenBehavior(typeof(LoggingBehavior<,>));
+
         });
+
+        // LoggerServiceBase türünde bir nesne, FileLogger | MsSQLLogger türünde bir nesne ile birlikte servislere ekleniyor.
+        //services.AddSingleton<LoggerServiceBase, FileLogger>();
+        services.AddSingleton<LoggerServiceBase, MsSqlLogger>();
 
 
 
